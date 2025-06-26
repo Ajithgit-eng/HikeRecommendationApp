@@ -1,0 +1,10 @@
+using Microsoft.ML.Data;
+
+namespace HikeRecommendationApp.Models.ML
+{
+    public class HikePrediction
+    {
+        [ColumnName("Score")]
+        public float PredictedHike { get; set; }
+    }
+}
