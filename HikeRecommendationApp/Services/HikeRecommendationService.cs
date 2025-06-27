@@ -48,9 +48,9 @@ namespace HikeRecommendationApp.Services
                 Rating = performance.Rating,
                 Attendance = performance.Attendance,
                 ProjectsHandled = performance.ProjectsHandled,
-                Experience = employee.Experience,
+                ExperienceYears = employee.Experience,
                 MarketSalary = marketSalary,
-                CurrentSalary = (float)employee.CurrentSalary
+                Salary = (float)employee.CurrentSalary
             };
 
             // Predict using the ML model.
@@ -73,12 +73,69 @@ namespace HikeRecommendationApp.Services
             return recommendation;
         }
 
-        private async Task<float> GetMarketSalary(string role, int experience)
+        // private async Task<float> GetMarketSalary(string role, int experience)
+        // {
+        //     // Integrate the OpenSalary API here using HttpClient.
+        //     // For now, return a mocked market salary.
+        //     await Task.CompletedTask;
+        //     return 1500000f;
+        // }
+        private async Task<float> GetMarketSalary(string role, int experienceYears)
+{
+var filePath = "market_salary_data.csv";
+if (!File.Exists(filePath))
+return 0f;
+
+
+var lines = await File.ReadAllLinesAsync(filePath);
+
+var records = lines
+    .Skip(1)
+    .Select(line =>
+    {
+        var parts = line.Split(',');
+        return new MarketSalaryRecord
         {
-            // Integrate the OpenSalary API here using HttpClient.
-            // For now, return a mocked market salary.
-            await Task.CompletedTask;
-            return 1500000f;
+            WorkYear = int.Parse(parts[0]),
+            ExperienceLevel = parts[1].Trim('\"'),
+            JobTitle = parts[3].Trim('\"'),
+            SalaryInUsd = float.Parse(parts[6])
+        };
+    })
+    .Where(r => r.WorkYear == 2024) // only latest year
+    .ToList();
+
+var filtered = records
+    .Where(r => r.JobTitle.Equals(role, StringComparison.OrdinalIgnoreCase))
+    .Select(r => new
+    {
+        Role = r.JobTitle,
+        Exp = ExperienceLevelToYears(r.ExperienceLevel),
+        Salary = r.SalaryInUsd
+    })
+    .Where(r => r.Exp <= experienceYears)
+    .ToList();
+
+if (!filtered.Any())
+{
+    Console.WriteLine($"⚠️ Market salary not found for {role} with {experienceYears} years");
+    return 0f;
+}
+
+var avg = filtered.Average(r => r.Salary);
+Console.WriteLine($"✅ Market salary for {role} ({experienceYears} yrs): {avg}");
+return avg;
+}
+        private int ExperienceLevelToYears(string level)
+        {
+            return level switch
+            {
+                "EN" => 0,
+                "MI" => 2,
+                "SE" => 4,
+                "EX" => 8,
+                _ => 0
+            };
         }
     }
 }

@@ -19,6 +19,7 @@ D:\Task\AI\HikeRecommendationApp.ML\obj\Debug\net8.0\HikeRecommendationApp.ML.Ge
 D:\Task\AI\HikeRecommendationApp.ML\obj\Debug\net8.0\HikeRecommendationApp.ML.AssemblyInfoInputs.cache
 D:\Task\AI\HikeRecommendationApp.ML\obj\Debug\net8.0\HikeRecommendationApp.ML.AssemblyInfo.cs
 D:\Task\AI\HikeRecommendationApp.ML\obj\Debug\net8.0\HikeRecommendationApp.ML.csproj.CoreCompileInputs.cache
+D:\Task\AI\HikeRecommendationApp.ML\obj\Debug\net8.0\HikeRecommendationApp.ML.sourcelink.json
 D:\Task\AI\HikeRecommendationApp.ML\obj\Debug\net8.0\HikeRecommendationApp.ML.dll
 D:\Task\AI\HikeRecommendationApp.ML\obj\Debug\net8.0\refint\HikeRecommendationApp.ML.dll
 D:\Task\AI\HikeRecommendationApp.ML\obj\Debug\net8.0\HikeRecommendationApp.ML.pdb

@@ -1,8 +1,3 @@
-D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.csproj.AssemblyReference.cache
-D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.GeneratedMSBuildEditorConfig.editorconfig
-D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.AssemblyInfoInputs.cache
-D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.AssemblyInfo.cs
-D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.csproj.CoreCompileInputs.cache
 D:\Task\AI\MLModelTrainer\bin\Debug\net8.0\MLModelTrainer.exe
 D:\Task\AI\MLModelTrainer\bin\Debug\net8.0\MLModelTrainer.deps.json
 D:\Task\AI\MLModelTrainer\bin\Debug\net8.0\MLModelTrainer.runtimeconfig.json
@@ -41,6 +36,12 @@ D:\Task\AI\MLModelTrainer\bin\Debug\net8.0\runtimes\win-x64\native\FastTreeNativ
 D:\Task\AI\MLModelTrainer\bin\Debug\net8.0\runtimes\win-x86\native\FastTreeNative.dll
 D:\Task\AI\MLModelTrainer\bin\Debug\net8.0\HikeRecommendationApp.ML.dll
 D:\Task\AI\MLModelTrainer\bin\Debug\net8.0\HikeRecommendationApp.ML.pdb
+D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.csproj.AssemblyReference.cache
+D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.AssemblyInfoInputs.cache
+D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.AssemblyInfo.cs
+D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.csproj.CoreCompileInputs.cache
+D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.sourcelink.json
 D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelT.95E79B60.Up2Date
 D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\MLModelTrainer.dll
 D:\Task\AI\MLModelTrainer\obj\Debug\net8.0\refint\MLModelTrainer.dll
