@@ -23,6 +23,8 @@ namespace HikeRecommendationApp.Controllers
             if (employee == null)
                 return NotFound("Employee not found");
 
+            data.Id = Guid.Empty; // Ensure database generates a new Id
+
             await _context.PerformanceData.AddAsync(data);
             await _context.SaveChangesAsync();
 

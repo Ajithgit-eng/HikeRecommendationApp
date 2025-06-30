@@ -29,7 +29,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        string csvPath = @"D:\Task\AI\MLModelTrainer\market_salary_data.csv";
+        string csvPath = @"D:\Task\AI\MLModelTrainer\it_salary_data_50000.csv";
 
         if (!File.Exists(csvPath))
         {

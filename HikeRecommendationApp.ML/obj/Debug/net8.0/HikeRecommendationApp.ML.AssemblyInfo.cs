@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HikeRecommendationApp.ML")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4240c21eecc822e17b78f81357d614b9d4d60279")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e86ad9de3b4c5d17d26f63af1bf7472ce48a4bdb")]
 [assembly: System.Reflection.AssemblyProductAttribute("HikeRecommendationApp.ML")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HikeRecommendationApp.ML")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -82,7 +82,7 @@ namespace HikeRecommendationApp.Services
         // }
         private async Task<float> GetMarketSalary(string role, int experienceYears)
 {
-var filePath = "market_salary_data.csv";
+var filePath = "D:\\Task\\AI\\MLModelTrainer\\it_salary_data_50000.csv";
 if (!File.Exists(filePath))
 return 0f;
 
@@ -102,11 +102,16 @@ var records = lines
             SalaryInUsd = float.Parse(parts[6])
         };
     })
-    .Where(r => r.WorkYear == 2024) // only latest year
+    //.Where(r => r.WorkYear == 2024) // only latest year
     .ToList();
 
+var uniqueRoles = records.Select(r => r.JobTitle).Distinct().ToList();
+Console.WriteLine("Available roles in CSV:");
+foreach (var roleName in uniqueRoles)
+    Console.WriteLine(roleName);
+
 var filtered = records
-    .Where(r => r.JobTitle.Equals(role, StringComparison.OrdinalIgnoreCase))
+    .Where(r => r.JobTitle.Trim().Equals(role.Trim(), StringComparison.OrdinalIgnoreCase))
     .Select(r => new
     {
         Role = r.JobTitle,
@@ -115,6 +120,8 @@ var filtered = records
     })
     .Where(r => r.Exp <= experienceYears)
     .ToList();
+
+Console.WriteLine($"Filtering for role: '{role.Trim()}' (input) vs CSV roles: {string.Join(", ", records.Select(r => r.JobTitle.Trim()).Distinct())}");
 
 if (!filtered.Any())
 {
