@@ -53,6 +53,10 @@ namespace HikeRecommendationApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<string>("CareerPathTips")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<Guid>("EmployeeId")
                         .HasColumnType("uuid");
 
@@ -63,8 +67,20 @@ namespace HikeRecommendationApp.Migrations
                     b.Property<DateTime>("GeneratedAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<string>("MarketComparison")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PerformanceSummary")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<float>("RecommendedHike")
                         .HasColumnType("real");
+
+                    b.Property<string>("SkillsGap")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("Id");
 
@@ -83,8 +99,8 @@ namespace HikeRecommendationApp.Migrations
                     b.Property<Guid>("EmployeeId")
                         .HasColumnType("uuid");
 
-                    b.Property<int>("ProjectsHandled")
-                        .HasColumnType("integer");
+                    b.Property<float>("ProjectsHandled")
+                        .HasColumnType("real");
 
                     b.Property<float>("Rating")
                         .HasColumnType("real");

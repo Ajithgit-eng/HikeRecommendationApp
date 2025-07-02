@@ -1,0 +1,32 @@
+<div class="container">
+  <mat-card>
+    <h2>Hike Recommendation</h2>
+    <div class="input-group">
+      <input
+        [(ngModel)]="employeeId"
+        placeholder="Enter Employee ID"
+        class="employee-input"
+      />
+      <button mat-raised-button color="primary" (click)="fetchRecommendation()">
+        Get Recommendation
+      </button>
+    </div>
+    <div *ngIf="error" class="error">{{ error }}</div>
+    <div *ngIf="loading" class="spinner">
+      <mat-spinner></mat-spinner>
+    </div>
+    <div *ngIf="data && !loading">
+      <mat-card class="result-card">
+        <h2>Recommended Hike: {{ data.recommendedHike | number : '1.2-2' }}%</h2>
+        <p><strong>Performance Summary:</strong> {{ data.performanceSummary }}</p>
+        <p><strong>Market Comparison:</strong> {{ data.marketComparison }}</p>
+        <p><strong>Skills Gap:</strong> {{ data.skillsGap }}</p>
+        <p><strong>Career Tips:</strong> {{ data.careerPathTips }}</p>
+        <p><strong>Explanation:</strong></p>
+        <pre>{{ data.explanation }}</pre>
+        <p><em>Generated at: {{ data.generatedAt | date:'medium' }}</em></p>
+        <!-- Replace above with pretty binding as per your data structure -->
+      </mat-card>
+    </div>
+  </mat-card>
+</div>

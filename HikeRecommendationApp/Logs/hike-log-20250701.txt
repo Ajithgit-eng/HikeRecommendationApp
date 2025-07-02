@@ -1,0 +1,723 @@
+[12:47:30 WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+[12:47:30 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService - Available roles in CSV: ["Full Stack Developer","DevOps Engineer","Software Engineer","Data Scientist","AI Researcher","ML Engineer","Product Manager","IT Project Manager","Data Engineer","Business Intelligence Analyst","Systems Administrator","Cloud Architect","Cybersecurity Analyst","Backend Developer","Frontend Developer","QA Engineer"]
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Full Stack Developer
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - DevOps Engineer
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Software Engineer
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Scientist
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - AI Researcher
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - ML Engineer
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Product Manager
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - IT Project Manager
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Engineer
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Business Intelligence Analyst
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Systems Administrator
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cloud Architect
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cybersecurity Analyst
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Backend Developer
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Frontend Developer
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - QA Engineer
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService - Filtering for role: 'Product Manager' (input) vs CSV roles: Full Stack Developer, DevOps Engineer, Software Engineer, Data Scientist, AI Researcher, ML Engineer, Product Manager, IT Project Manager, Data Engineer, Business Intelligence Analyst, Systems Administrator, Cloud Architect, Cybersecurity Analyst, Backend Developer, Frontend Developer, QA Engineer
+[12:47:32 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ Market salary for Product Manager (10 yrs): 132863.19
+[12:47:32 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/1168d366-e428-47fd-a00a-6efb6633f6b4 responded 200 in 2873.9665 ms
+[14:58:46 WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+[14:58:47 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/Employees responded 200 in 1813.5889 ms
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService - Available roles in CSV: ["Full Stack Developer","DevOps Engineer","Software Engineer","Data Scientist","AI Researcher","ML Engineer","Product Manager","IT Project Manager","Data Engineer","Business Intelligence Analyst","Systems Administrator","Cloud Architect","Cybersecurity Analyst","Backend Developer","Frontend Developer","QA Engineer"]
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Full Stack Developer
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - DevOps Engineer
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Software Engineer
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Scientist
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - AI Researcher
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - ML Engineer
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Product Manager
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - IT Project Manager
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Engineer
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Business Intelligence Analyst
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Systems Administrator
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cloud Architect
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cybersecurity Analyst
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Backend Developer
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Frontend Developer
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - QA Engineer
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService - Filtering for role: 'Product Manager' (input) vs CSV roles: Full Stack Developer, DevOps Engineer, Software Engineer, Data Scientist, AI Researcher, ML Engineer, Product Manager, IT Project Manager, Data Engineer, Business Intelligence Analyst, Systems Administrator, Cloud Architect, Cybersecurity Analyst, Backend Developer, Frontend Developer, QA Engineer
+[14:59:03 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ Market salary for Product Manager (10 yrs): 132863.19
+[14:59:03 ERR] Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (17ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Guid), @p3='?', @p4='?' (DbType = DateTime), @p5='?', @p6='?', @p7='?' (DbType = Single), @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "HikeRecommendations" ("Id", "CareerPathTips", "EmployeeId", "Explanation", "GeneratedAt", "MarketComparison", "PerformanceSummary", "RecommendedHike", "SkillsGap")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+[14:59:03 ERR] Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'HikeRecommendationApp.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+    Position: 42
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+    Position: 42
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[14:59:03 ERR] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/1168d366-e428-47fd-a00a-6efb6633f6b4 responded 500 in 1043.0852 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+    Position: 42
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at HikeRecommendationApp.Services.HikeRecommendationService.GenerateRecommendation(Guid employeeId) in D:\Task\AI\hikerecommendationapp\Services\HikeRecommendationService.cs:line 152
+   at HikeRecommendationApp.Controllers.HikeRecommendationController.GetRecommendation(Guid employeeId) in D:\Task\AI\hikerecommendationapp\Controllers\HikeRecommendationController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[14:59:03 ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+    Position: 42
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at HikeRecommendationApp.Services.HikeRecommendationService.GenerateRecommendation(Guid employeeId) in D:\Task\AI\hikerecommendationapp\Services\HikeRecommendationService.cs:line 152
+   at HikeRecommendationApp.Controllers.HikeRecommendationController.GetRecommendation(Guid employeeId) in D:\Task\AI\hikerecommendationapp\Controllers\HikeRecommendationController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[14:59:15 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[14:59:15 ERR] Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT h."Id", h."CareerPathTips", h."EmployeeId", h."Explanation", h."GeneratedAt", h."MarketComparison", h."PerformanceSummary", h."RecommendedHike", h."SkillsGap"
+FROM "HikeRecommendations" AS h
+WHERE h."Id" = @__p_0
+LIMIT 1
+[14:59:15 ERR] Microsoft.EntityFrameworkCore.Query - An exception occurred while iterating over the results of a query for context type 'HikeRecommendationApp.Data.AppDbContext'.
+Npgsql.PostgresException (0x80004005): 42703: column h.CareerPathTips does not exist
+
+POSITION: 16
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column h.CareerPathTips does not exist
+    Position: 16
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+Npgsql.PostgresException (0x80004005): 42703: column h.CareerPathTips does not exist
+
+POSITION: 16
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column h.CareerPathTips does not exist
+    Position: 16
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+[14:59:15 ERR] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/by-id/1168d366-e428-47fd-a00a-6efb6633f6b4 responded 500 in 205.4974 ms
+Npgsql.PostgresException (0x80004005): 42703: column h.CareerPathTips does not exist
+
+POSITION: 16
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at HikeRecommendationApp.Controllers.HikeRecommendationController.GetRecommendationById(Guid id) in D:\Task\AI\hikerecommendationapp\Controllers\HikeRecommendationController.cs:line 34
+   at lambda_method255(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column h.CareerPathTips does not exist
+    Position: 16
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+[14:59:15 ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42703: column h.CareerPathTips does not exist
+
+POSITION: 16
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at HikeRecommendationApp.Controllers.HikeRecommendationController.GetRecommendationById(Guid id) in D:\Task\AI\hikerecommendationapp\Controllers\HikeRecommendationController.cs:line 34
+   at lambda_method255(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column h.CareerPathTips does not exist
+    Position: 16
+    File: parse_relation.c
+    Line: 3721
+    Routine: errorMissingColumn
+[15:00:42 ERR] Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "Id" uuid NOT NULL,
+    "Name" text NOT NULL,
+    "Role" text NOT NULL,
+    "Experience" integer NOT NULL,
+    "CurrentSalary" numeric NOT NULL,
+    CONSTRAINT "PK_Employees" PRIMARY KEY ("Id")
+);
+[15:03:17 WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+[15:03:17 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService - Available roles in CSV: ["Full Stack Developer","DevOps Engineer","Software Engineer","Data Scientist","AI Researcher","ML Engineer","Product Manager","IT Project Manager","Data Engineer","Business Intelligence Analyst","Systems Administrator","Cloud Architect","Cybersecurity Analyst","Backend Developer","Frontend Developer","QA Engineer"]
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Full Stack Developer
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - DevOps Engineer
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Software Engineer
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Scientist
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - AI Researcher
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - ML Engineer
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Product Manager
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - IT Project Manager
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Engineer
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Business Intelligence Analyst
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Systems Administrator
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cloud Architect
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cybersecurity Analyst
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Backend Developer
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Frontend Developer
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - QA Engineer
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService - Filtering for role: 'Product Manager' (input) vs CSV roles: Full Stack Developer, DevOps Engineer, Software Engineer, Data Scientist, AI Researcher, ML Engineer, Product Manager, IT Project Manager, Data Engineer, Business Intelligence Analyst, Systems Administrator, Cloud Architect, Cybersecurity Analyst, Backend Developer, Frontend Developer, QA Engineer
+[15:03:19 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ Market salary for Product Manager (10 yrs): 132863.19
+[15:03:19 ERR] Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (13ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Guid), @p3='?', @p4='?' (DbType = DateTime), @p5='?', @p6='?', @p7='?' (DbType = Single), @p8='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "HikeRecommendations" ("Id", "CareerPathTips", "EmployeeId", "Explanation", "GeneratedAt", "MarketComparison", "PerformanceSummary", "RecommendedHike", "SkillsGap")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+[15:03:19 ERR] Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'HikeRecommendationApp.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+    Position: 42
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+    Position: 42
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[15:03:19 ERR] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/1168d366-e428-47fd-a00a-6efb6633f6b4 responded 500 in 2483.0334 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+    Position: 42
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at HikeRecommendationApp.Services.HikeRecommendationService.GenerateRecommendation(Guid employeeId) in D:\Task\AI\hikerecommendationapp\Services\HikeRecommendationService.cs:line 152
+   at HikeRecommendationApp.Controllers.HikeRecommendationController.GetRecommendation(Guid employeeId) in D:\Task\AI\hikerecommendationapp\Controllers\HikeRecommendationController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[15:03:19 ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42703: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+
+POSITION: 42
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "CareerPathTips" of relation "HikeRecommendations" does not exist
+    Position: 42
+    File: parse_target.c
+    Line: 1070
+    Routine: checkInsertTargets
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at HikeRecommendationApp.Services.HikeRecommendationService.GenerateRecommendation(Guid employeeId) in D:\Task\AI\hikerecommendationapp\Services\HikeRecommendationService.cs:line 152
+   at HikeRecommendationApp.Controllers.HikeRecommendationController.GetRecommendation(Guid employeeId) in D:\Task\AI\hikerecommendationapp\Controllers\HikeRecommendationController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[15:04:39 ERR] Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "Id" uuid NOT NULL,
+    "Name" text NOT NULL,
+    "Role" text NOT NULL,
+    "Experience" integer NOT NULL,
+    "CurrentSalary" numeric NOT NULL,
+    CONSTRAINT "PK_Employees" PRIMARY KEY ("Id")
+);
+[15:06:58 ERR] Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "Id" uuid NOT NULL,
+    "Name" text NOT NULL,
+    "Role" text NOT NULL,
+    "Experience" integer NOT NULL,
+    "CurrentSalary" numeric NOT NULL,
+    CONSTRAINT "PK_Employees" PRIMARY KEY ("Id")
+);
+[15:07:51 ERR] Microsoft.EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'hike_db' on server 'tcp://localhost:5432'.
+[15:09:38 WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+[15:09:38 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[15:09:40 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/1168d366-e428-47fd-a00a-6efb6633f6b4 responded 404 in 1737.9421 ms
+[15:10:50 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP POST /api/Employees responded 201 in 279.3265 ms
+[15:11:13 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP POST /api/Performance responded 404 in 54.6210 ms
+[15:11:41 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[15:11:41 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/1168d366-e428-47fd-a00a-6efb6633f6b4 responded 404 in 44.7599 ms
+[15:11:56 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[15:11:56 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/45697c09-974e-4a50-a92f-c374fe2e13bd responded 404 in 39.9564 ms
+[15:12:08 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/Employees responded 200 in 17.3371 ms
+[15:12:27 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[15:12:27 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/45697c09-974e-4a50-a92f-c374fe2e13bd responded 404 in 31.3828 ms
+[15:14:24 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/Performance/45697c09-974e-4a50-a92f-c374fe2e13bd responded 404 in 21.6605 ms
+[15:15:06 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP POST /api/Performance responded 200 in 150.3934 ms
+[15:15:13 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/Performance/45697c09-974e-4a50-a92f-c374fe2e13bd responded 200 in 5.7516 ms
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService - Available roles in CSV: ["Full Stack Developer","DevOps Engineer","Software Engineer","Data Scientist","AI Researcher","ML Engineer","Product Manager","IT Project Manager","Data Engineer","Business Intelligence Analyst","Systems Administrator","Cloud Architect","Cybersecurity Analyst","Backend Developer","Frontend Developer","QA Engineer"]
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Full Stack Developer
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - DevOps Engineer
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Software Engineer
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Scientist
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - AI Researcher
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - ML Engineer
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Product Manager
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - IT Project Manager
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Engineer
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Business Intelligence Analyst
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Systems Administrator
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cloud Architect
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cybersecurity Analyst
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Backend Developer
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Frontend Developer
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - QA Engineer
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService - Filtering for role: 'Software Engineer' (input) vs CSV roles: Full Stack Developer, DevOps Engineer, Software Engineer, Data Scientist, AI Researcher, ML Engineer, Product Manager, IT Project Manager, Data Engineer, Business Intelligence Analyst, Systems Administrator, Cloud Architect, Cybersecurity Analyst, Backend Developer, Frontend Developer, QA Engineer
+[15:15:20 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ Market salary for Software Engineer (5 yrs): 109849.08
+[15:15:20 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/45697c09-974e-4a50-a92f-c374fe2e13bd responded 200 in 328.2093 ms
+[20:58:56 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService - Available roles in CSV: ["Full Stack Developer","DevOps Engineer","Software Engineer","Data Scientist","AI Researcher","ML Engineer","Product Manager","IT Project Manager","Data Engineer","Business Intelligence Analyst","Systems Administrator","Cloud Architect","Cybersecurity Analyst","Backend Developer","Frontend Developer","QA Engineer"]
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Full Stack Developer
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - DevOps Engineer
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Software Engineer
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Scientist
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - AI Researcher
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - ML Engineer
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Product Manager
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - IT Project Manager
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Engineer
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Business Intelligence Analyst
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Systems Administrator
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cloud Architect
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cybersecurity Analyst
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Backend Developer
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Frontend Developer
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - QA Engineer
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService - Filtering for role: 'Software Engineer' (input) vs CSV roles: Full Stack Developer, DevOps Engineer, Software Engineer, Data Scientist, AI Researcher, ML Engineer, Product Manager, IT Project Manager, Data Engineer, Business Intelligence Analyst, Systems Administrator, Cloud Architect, Cybersecurity Analyst, Backend Developer, Frontend Developer, QA Engineer
+[20:58:57 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ Market salary for Software Engineer (5 yrs): 109849.08
+[20:58:57 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/45697c09-974e-4a50-a92f-c374fe2e13bd responded 200 in 1399.1929 ms
+[20:59:05 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService - Available roles in CSV: ["Full Stack Developer","DevOps Engineer","Software Engineer","Data Scientist","AI Researcher","ML Engineer","Product Manager","IT Project Manager","Data Engineer","Business Intelligence Analyst","Systems Administrator","Cloud Architect","Cybersecurity Analyst","Backend Developer","Frontend Developer","QA Engineer"]
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Full Stack Developer
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - DevOps Engineer
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Software Engineer
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Scientist
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - AI Researcher
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - ML Engineer
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Product Manager
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - IT Project Manager
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Engineer
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Business Intelligence Analyst
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Systems Administrator
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cloud Architect
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cybersecurity Analyst
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Backend Developer
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Frontend Developer
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - QA Engineer
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService - Filtering for role: 'Software Engineer' (input) vs CSV roles: Full Stack Developer, DevOps Engineer, Software Engineer, Data Scientist, AI Researcher, ML Engineer, Product Manager, IT Project Manager, Data Engineer, Business Intelligence Analyst, Systems Administrator, Cloud Architect, Cybersecurity Analyst, Backend Developer, Frontend Developer, QA Engineer
+[20:59:06 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ Market salary for Software Engineer (5 yrs): 109849.08
+[20:59:06 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/45697c09-974e-4a50-a92f-c374fe2e13bd responded 200 in 297.1003 ms
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService - Available roles in CSV: ["Full Stack Developer","DevOps Engineer","Software Engineer","Data Scientist","AI Researcher","ML Engineer","Product Manager","IT Project Manager","Data Engineer","Business Intelligence Analyst","Systems Administrator","Cloud Architect","Cybersecurity Analyst","Backend Developer","Frontend Developer","QA Engineer"]
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Full Stack Developer
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - DevOps Engineer
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Software Engineer
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Scientist
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - AI Researcher
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - ML Engineer
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Product Manager
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - IT Project Manager
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Engineer
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Business Intelligence Analyst
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Systems Administrator
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cloud Architect
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cybersecurity Analyst
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Backend Developer
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Frontend Developer
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - QA Engineer
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService - Filtering for role: 'Software Engineer' (input) vs CSV roles: Full Stack Developer, DevOps Engineer, Software Engineer, Data Scientist, AI Researcher, ML Engineer, Product Manager, IT Project Manager, Data Engineer, Business Intelligence Analyst, Systems Administrator, Cloud Architect, Cybersecurity Analyst, Backend Developer, Frontend Developer, QA Engineer
+[20:59:09 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ Market salary for Software Engineer (5 yrs): 109849.08
+[20:59:09 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/45697c09-974e-4a50-a92f-c374fe2e13bd responded 200 in 253.1703 ms
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService - Available roles in CSV: ["Full Stack Developer","DevOps Engineer","Software Engineer","Data Scientist","AI Researcher","ML Engineer","Product Manager","IT Project Manager","Data Engineer","Business Intelligence Analyst","Systems Administrator","Cloud Architect","Cybersecurity Analyst","Backend Developer","Frontend Developer","QA Engineer"]
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Full Stack Developer
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - DevOps Engineer
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Software Engineer
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Scientist
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - AI Researcher
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - ML Engineer
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Product Manager
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - IT Project Manager
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Engineer
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Business Intelligence Analyst
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Systems Administrator
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cloud Architect
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cybersecurity Analyst
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Backend Developer
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Frontend Developer
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - QA Engineer
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService - Filtering for role: 'Software Engineer' (input) vs CSV roles: Full Stack Developer, DevOps Engineer, Software Engineer, Data Scientist, AI Researcher, ML Engineer, Product Manager, IT Project Manager, Data Engineer, Business Intelligence Analyst, Systems Administrator, Cloud Architect, Cybersecurity Analyst, Backend Developer, Frontend Developer, QA Engineer
+[20:59:41 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ Market salary for Software Engineer (5 yrs): 109849.08
+[20:59:41 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/45697c09-974e-4a50-a92f-c374fe2e13bd responded 200 in 389.6985 ms
+[21:02:32 WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+[21:02:33 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService - Available roles in CSV: ["Full Stack Developer","DevOps Engineer","Software Engineer","Data Scientist","AI Researcher","ML Engineer","Product Manager","IT Project Manager","Data Engineer","Business Intelligence Analyst","Systems Administrator","Cloud Architect","Cybersecurity Analyst","Backend Developer","Frontend Developer","QA Engineer"]
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Full Stack Developer
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - DevOps Engineer
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Software Engineer
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Scientist
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - AI Researcher
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - ML Engineer
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Product Manager
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - IT Project Manager
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Engineer
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Business Intelligence Analyst
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Systems Administrator
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cloud Architect
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cybersecurity Analyst
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Backend Developer
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Frontend Developer
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - QA Engineer
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService - Filtering for role: 'Software Engineer' (input) vs CSV roles: Full Stack Developer, DevOps Engineer, Software Engineer, Data Scientist, AI Researcher, ML Engineer, Product Manager, IT Project Manager, Data Engineer, Business Intelligence Analyst, Systems Administrator, Cloud Architect, Cybersecurity Analyst, Backend Developer, Frontend Developer, QA Engineer
+[21:02:37 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ Market salary for Software Engineer (5 yrs): 109849.08
+[21:02:37 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/45697c09-974e-4a50-a92f-c374fe2e13bd responded 200 in 5279.6935 ms
+[21:08:01 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ ML model loaded from MLModel.zip
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService - Available roles in CSV: ["Full Stack Developer","DevOps Engineer","Software Engineer","Data Scientist","AI Researcher","ML Engineer","Product Manager","IT Project Manager","Data Engineer","Business Intelligence Analyst","Systems Administrator","Cloud Architect","Cybersecurity Analyst","Backend Developer","Frontend Developer","QA Engineer"]
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Full Stack Developer
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - DevOps Engineer
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Software Engineer
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Scientist
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - AI Researcher
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - ML Engineer
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Product Manager
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - IT Project Manager
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Data Engineer
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Business Intelligence Analyst
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Systems Administrator
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cloud Architect
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Cybersecurity Analyst
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Backend Developer
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - Frontend Developer
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService -  - QA Engineer
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService - Filtering for role: 'Software Engineer' (input) vs CSV roles: Full Stack Developer, DevOps Engineer, Software Engineer, Data Scientist, AI Researcher, ML Engineer, Product Manager, IT Project Manager, Data Engineer, Business Intelligence Analyst, Systems Administrator, Cloud Architect, Cybersecurity Analyst, Backend Developer, Frontend Developer, QA Engineer
+[21:08:02 INF] HikeRecommendationApp.Services.HikeRecommendationService - ✅ Market salary for Software Engineer (5 yrs): 109849.08
+[21:08:02 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/HikeRecommendation/45697c09-974e-4a50-a92f-c374fe2e13bd responded 200 in 1178.0589 ms

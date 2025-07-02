@@ -2,6 +2,8 @@ using HikeRecommendationApp.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
+using HikeRecommendationApp.Models;
+using HikeRecommendationApp.Data; 
 
 namespace HikeRecommendationApp.Controllers
 {
@@ -9,11 +11,13 @@ namespace HikeRecommendationApp.Controllers
     [ApiController]
     public class HikeRecommendationController : ControllerBase
     {
+              private readonly AppDbContext _context;
         private readonly HikeRecommendationService _hikeService;
 
-        public HikeRecommendationController(HikeRecommendationService hikeService)
+        public HikeRecommendationController(HikeRecommendationService hikeService, AppDbContext context)
         {
             _hikeService = hikeService;
+          _context = context;
         }
 
         [HttpGet("{employeeId}")]
@@ -24,5 +28,13 @@ namespace HikeRecommendationApp.Controllers
                 return NotFound("Employee or performance data not found.");
             return Ok(recommendation);
         }
+[HttpGet("by-id/{id}")]
+public async Task<ActionResult<HikeRecommendation>> GetRecommendationById(Guid id)
+{
+    var recommendation = await _context.HikeRecommendations.FindAsync(id);
+    if (recommendation == null)
+        return NotFound();
+    return recommendation;
+}
     }
 }

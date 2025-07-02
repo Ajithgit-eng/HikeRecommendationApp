@@ -1,0 +1,2 @@
+[15:36:29 WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+[15:36:31 INF] Serilog.AspNetCore.RequestLoggingMiddleware - HTTP GET /api/Employees responded 200 in 1166.6019 ms

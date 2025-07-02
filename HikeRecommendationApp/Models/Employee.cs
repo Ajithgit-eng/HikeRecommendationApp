@@ -7,8 +7,8 @@ namespace HikeRecommendationApp.Models
     {
         [Key]
         public Guid Id { get; set; }
-        public string Name { get; set; }
-        public string Role { get; set; }
+        public required string Name { get; set; }
+        public  required string Role { get; set; }
         public int Experience { get; set; }
         public decimal CurrentSalary { get; set; }
     }
